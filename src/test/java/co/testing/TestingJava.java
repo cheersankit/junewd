@@ -51,6 +51,8 @@ public class TestingJava {
 
         driver.manage().timeouts().pageLoadTimeout(1, TimeUnit.MILLISECONDS);
 
+
+
 //        WebElement eml = driver.findElement(By.xpath("//*[@id=\"navbar\"]/ul[1]/li[9]/a"));
 //
 //        eml.click();
@@ -99,6 +101,11 @@ public class TestingJava {
 //        Thread.sleep(1000);
 //
        driver.quit();
+    }
+
+    @Test
+    public void dummyTest(){
+
     }
 
 
